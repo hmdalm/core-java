@@ -31,7 +31,7 @@ abstract class Drawing{
         int paper = s1.nextInt();
         System.out.println("enter the value");
         int ans=a1.draw( paper);
-        System.out.println(ans);
+        System.out.println("here is your answere :"+ans);
         a1.sketch();
     }
 }
