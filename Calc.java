@@ -1,35 +1,35 @@
 import java.util.Scanner;
 public class Calc{
-    public int Addsubmultdiv(int a,int b){
-        int c= a + b;
-        int d= a - b;
-        int e= a * b;
-        int f= a / b;
-        return c;}
+	
+    public void Addsubmultdiv(){
+        
+        System.out.println("calculation");
+       }
         public static void main(String... arg){
     
             Calc abcd = new Calc();
             Scanner sc = new Scanner(System.in);
+            System.out.println("Insert first number :-");
             int a = sc.nextInt();
-            
+            System.out.println("Insert second number :-");
             int b = sc.nextInt();
-            int ans = abcd.Addsubmultdiv(a, b);
-            System.out.println(ans);            
+            abcd.Addsubmultdiv();
+            System.out.println("the value of c is :"+(a+b));       
         
             
         
         if ( b==1){
-            System.out.println("the subtraction method" + d);
+            System.out.println("the subtraction method" +( a-b));
         }
         else if ( b==2){
-            System.out.println("the add method " + c);
+            System.out.println("the add method " +( a+b) );
         }
         else if ( b==3){
-            System.out.println("the Multiplication method " + e);
+            System.out.println("the Multiplication method " + (a*b));
 
         }
         else if (b==4){
-            System.out.println("the divide method " + f);
+            System.out.println("the divide method " + (a/b));
         }
         else {
             System.out.println("what to do");
