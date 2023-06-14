@@ -19,7 +19,7 @@ public class ArrayFindCheck {
 		}
 		return false;
 	}
-	public void currentEle(int arr[], int n) {
+	public void currentEle(int arr[]) {
 	
 
 		for (int i = 0; i < arr.length; i++) {
@@ -48,7 +48,7 @@ public class ArrayFindCheck {
 		boolean a = obj.find(myData, 7);
 		System.out.println(a+"!!!!");
 		System.out.println("current element");
-		obj.currentEle(myData,7);
+		obj.currentEle(myData);
 		
 		boolean x =obj.check(myData, 0);
 		System.out.println(x);

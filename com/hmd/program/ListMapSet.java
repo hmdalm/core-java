@@ -23,7 +23,7 @@ public class ListMapSet {
 		Arlist.add("A333");
 		Arlist.add("A444");
 		Arlist.add("A555");
-		System.out.println("Print 3rd item :" + Arlist.get(3));
+		System.out.println("Print 3rd item : " + Arlist.get(3));
 		Arlist.set(3, "A000");
 		for (String code : Arlist)
 
@@ -35,19 +35,19 @@ public class ListMapSet {
 		System.out.println("................");
 
 	}
+
 	public void hashMap() {
-		Map<String,Integer> contacts=new HashMap<>();
-		contacts.put("Ajay",123);
-		contacts.put("Raju",456);
-		contacts.put("Deepak",789);
-		contacts.put("Santo",145);
-		contacts.put("komal",326);
+		Map<String, Integer> contacts = new HashMap<>();
+		contacts.put("Ajay", 123);
+		contacts.put("Raju", 456);
+		contacts.put("Deepak", 789);
+		contacts.put("Santo", 145);
+		contacts.put("komal", 326);
 		System.out.println("Conatcts Details of the Users");
-		for(Map.Entry co:contacts.entrySet()) {
-			System.out.println(co.getKey()+" "+co.getValue());
+		for (Map.Entry co : contacts.entrySet()) {
+			System.out.println(co.getKey() + " " + co.getValue());
 		}
 
-		
 	}
 
 	public static void main(String[] args) {

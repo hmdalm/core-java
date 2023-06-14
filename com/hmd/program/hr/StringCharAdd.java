@@ -27,6 +27,7 @@ public class StringCharAdd {
 		}
 		return maxm;
 	}
+
 	public int minNu(int art[]) {
 		int minm = art[0];
 		for (int x = 0; x < art.length; x++) {
@@ -41,14 +42,14 @@ public class StringCharAdd {
 		StringCharAdd s1 = new StringCharAdd();
 		boolean a = s1.find(data, 36);
 		System.out.println(a + "!!");
-		System.out.println("____________________________");
+		System.out.println("2222____________________________");
 		s1.stringCharAdd();
 		System.out.println("____________________________");
 		s1.test();
 		System.out.println("____________________________");
-		int no=s1.maxNu(data);
+		int no = s1.maxNu(data);
 		System.out.println(no);
-		int no1=s1.minNu(data);
+		int no1 = s1.minNu(data);
 		System.out.println(no1);
 	}
 
@@ -85,5 +86,5 @@ public class StringCharAdd {
 		}
 		System.out.println(sb.toString());
 	}
-	
+
 }

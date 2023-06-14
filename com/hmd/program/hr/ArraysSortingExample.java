@@ -7,7 +7,8 @@ public class ArraysSortingExample
 	public static void stringary() {
 		String ary[]= {"h","a","m","r","b","i","y","d"};
 		Arrays.sort(ary);
-		for(int i=0;i<ary.length;i++) {
+		//descending order condition
+		for(int i=ary.length-1;i>=0;i--) {
 			System.out.println(ary[i]);
 		}
 	}

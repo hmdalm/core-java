@@ -13,16 +13,19 @@ public class TwoArraysum {
 	    
 		
 		public boolean check(int ar0[]) {
-		     int num = 14;
+
+			boolean result= false;
+		     int num = 34;
 			for (int i = 0; i < ar0.length; i++) {
 			    for (int j = 0; j < ar0.length; j++)
 			if (ar0[i]+ar0[j] == num) {
+				result=true;
 					System.out.println("ar0[i]:"+ar0[i]+"ar0[j]:"+ar0[j]);
 					
 					
-				}continue;
+				}
 			}
-			return true;
-	}
+		return result;	
+		}
 
 }

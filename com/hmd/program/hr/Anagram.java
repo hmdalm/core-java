@@ -48,9 +48,10 @@ public class Anagram {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
+		System.out.println("enters a");
 		String a = sc.next();
+		System.out.println("enters b");
 		String b = sc.next();
-
 		Anagram.isAnagram(a, b);
 
 	}
